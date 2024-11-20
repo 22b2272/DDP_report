@@ -1,1 +1,1 @@
-# Semantic Segmentation  of a rat brain 
+# Semantic Segmentation  of a Rat brain 
