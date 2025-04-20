@@ -1,1 +1,7 @@
 # BRAIN CLASSIFICATION :  Semantic Segmentation  of a Rat brain 
+
+• ImplementedDINO-v2model,achieving99%accuracyand98%meanIoUformulti-classsegmentation
+ •Achievedlowlossvalues0.002bydevelopingmodelsinPyTorchwitha2-Dconvolutional layersand
+ linearclassifierutilizedasdecoders,andanalyzed10+researchpaperstoenhancethemodeldevelopment
+ • Implementedaframeworkforfine-tuning, integratingbinaryandmulti-classsegmentationapproaches
+ • Enhancedaccuracyin10anatomicalregionsusingAdamWandOptunahyperparameteroptimization
