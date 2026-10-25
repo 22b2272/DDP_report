@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurolens-segmentation"
+version = "0.1.0"
+description = "A reproducible DINOv2 baseline for 2D brain MRI segmentation research."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24,<3",
+    "Pillow>=10",
+    "torch>=2.2",
+    "transformers>=4.45,<5",
+]
+
+[project.optional-dependencies]
+tiff = ["tifffile>=2024.8.30"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+neurolens-train = "neurolens.train:main"
+neurolens-predict = "neurolens.predict:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -37,14 +37,6 @@ try:
 except Exception as e:
   print(f"Error during extraction: {e}")
 
-import shutil
-
-# Define the path of the directory you want to delete
-directory_path = '/content/drive/MyDrive/custom_data_S1'
-
-# Remove the directory and its contents
-shutil.rmtree(directory_path)
-
 import os
 
 data_S1_path = r"/content/data_S1/data_S1"  # Adjust the path as needed
@@ -660,4 +652,3 @@ files.download('model.pt')
 
 from google.colab import files
 files.download('model.pth')
-

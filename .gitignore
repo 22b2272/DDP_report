@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local data and experiment outputs
+/data/
+/checkpoints/
+/outputs/
+*.pt
+*.pth
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

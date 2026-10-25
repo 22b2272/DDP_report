@@ -1,0 +1,4 @@
+image_path,mask_path,subject_id,split,channel_index
+data/subject_001/slice_000.png,data/subject_001/masks/slice_000.png,subject_001,train,
+data/subject_002/slice_000.png,data/subject_002/masks/slice_000.png,subject_002,val,
+data/subject_003/slice_000.png,data/subject_003/masks/slice_000.png,subject_003,test,
