@@ -1,4 +1,4 @@
-# NeuroLens: brain MRI segmentation baseline
+# NeuroLens: brain MRI segmentation 
 
 NeuroLens is an early-stage brain-imaging research project. This repository
 currently provides a reproducible **2D semantic-segmentation baseline** using
